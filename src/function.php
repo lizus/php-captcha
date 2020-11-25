@@ -1,4 +1,5 @@
 <?php
+namespace LizusCaptcha;
 
 /**
  * load_captcha
