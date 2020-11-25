@@ -38,7 +38,7 @@ echo $captcha->check_captcha($code);
 ```
 
 ### 引用地址，通过ajax获取
-* 验证码prefix获取： `admin_url('admin-ajax.php').'?action-get_captcha_prefix.php'`
-* 验证码图片获取： `admin_url('admin-ajax.php').'?action-get_captcha_image.php?prefix={prefix}'`
+* 验证码prefix获取： `admin_url('admin-ajax.php').'?action=get_captcha_prefix'`
+* 验证码图片获取： `admin_url('admin-ajax.php').'?action=get_captcha_image&prefix={prefix}'`
 
 ## 示例见/test
