@@ -1,0 +1,20 @@
+{
+    "name": "lizus/php-captcha",
+    "description": "php captcha",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "lizus/php-redis": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "lizus",
+        "email": "lizus.com@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "LizusCaptcha\\": "src/class/"
+        }
+    }
+}
