@@ -34,7 +34,7 @@ echo $captcha->check_captcha($code);
 
 ### 在functions.php中载入
 ```php
-load_captcha();
+\LizusCaptcha\load_captcha();
 ```
 
 ### 引用地址，通过ajax获取
